@@ -5,9 +5,9 @@
   "scripts": {
     "lint:scripts": "eslint .",
     "lint:styles": "stylelint . --color --formatter",
-    "lint:pre-commit": "lint-staged",
     "lint": "run-p lint:*",
     "test": "yarn lint",
+    "pre-commit": "lint-staged",
     "postinstall": "husky install .configs/husky"
   },
   "devDependencies": {
