@@ -1,0 +1,4 @@
+{
+  "extends": "./.configs/linters/stylelint-dv-base.js",
+  "rules": {}
+}
