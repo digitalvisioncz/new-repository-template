@@ -10,8 +10,7 @@
     "lint:styles": "stylelint . --color --formatter",
     "lint": "run-p lint:*",
     "test": "yarn lint",
-    "pre-commit": "lint-staged",
-    "postinstall": "husky install .github/husky"
+    "pre-commit": "lint-staged"
   },
   "devDependencies": {
     "@digitalvisioncz/eslint-config-base": "^1.0.1",

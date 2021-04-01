@@ -1,0 +1,12 @@
+{
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "parser": "babel-eslint",
+  "extends": [
+    "@digitalvisioncz/eslint-config-base",
+    "@digitalvisioncz/eslint-config-react"
+  ],
+  "rules": {}
+}
