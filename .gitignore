@@ -23,6 +23,7 @@ yarn-error.log*
 .env
 .env.local
 localhost.json
+.github/husky/.gitignore
 
 # System files
 .DS_Store

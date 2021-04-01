@@ -1,6 +1,9 @@
 {
   "name": "new-repository-template",
-  "author": "Digital Vision <software@digitalvision.cz>",
+  "author": {
+    "name": "Digital Vision",
+    "url": "https://digitalvision.cz"
+  },
   "private": true,
   "scripts": {
     "lint:scripts": "eslint .",
@@ -8,13 +11,14 @@
     "lint": "run-p lint:*",
     "test": "yarn lint",
     "pre-commit": "lint-staged",
-    "postinstall": "husky install .configs/husky"
+    "postinstall": "husky install .github/husky"
   },
   "devDependencies": {
-    "eslint": "^7.22.0",
+    "@digitalvisioncz/eslint-config-base": "^1.0.1",
+    "@digitalvisioncz/eslint-config-react": "^1.0.1",
+    "@digitalvisioncz/stylelint-config": "^1.0.1",
     "husky": "^5.2.0",
     "lint-staged": "^10.5.4",
-    "npm-run-all": "^4.1.5",
-    "stylelint": "^13.12.0"
+    "npm-run-all": "^4.1.5"
   }
 }
