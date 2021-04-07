@@ -216,30 +216,30 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
-"@digitalvisioncz/eslint-config-base@^1.0.1":
-  version "1.0.1"
-  resolved "https://npm.pkg.github.com/download/@digitalvisioncz/eslint-config-base/1.0.1/6a3ab2813b0d5b4fc18c3d6ab1a6a0c95d80603c3e7b5c4c819accd243e775ea#58ce75d63dfacee34b8bc4ab14e4284f6459c139"
-  integrity sha512-351tN+oXZIor9VCNxfJVYHa6R+nyKULaDMHpxBs3rMwhpWvqtJB+x77E4znQ7NfFd7B/+cDZfQFIKmJBHhH0Og==
+"@digitalvisioncz/eslint-config-base@^1.0.0":
+  version "1.0.0"
+  resolved "https://npm.pkg.github.com/download/@digitalvisioncz/eslint-config-base/1.0.0/a8202c9dd3e31fe3feb9a2fe65a93dde4af588f9079349e17e8f769a57f7d772#0b8257ab027173bc126e843a238a93cfcd574e75"
+  integrity sha512-+wZd9QdLfRSOgxwlieJumR0J3J7aZD3nwyjrBTrpVHAelGYBUg8k3MGnqNV7Q0Z+Auni9VMqH8W5pEpD4kdz/Q==
   dependencies:
     eslint "^7.23.0"
     eslint-config-airbnb-base "^14.2.1"
     eslint-plugin-import "^2.22.1"
 
-"@digitalvisioncz/eslint-config-react@^1.0.1":
-  version "1.0.1"
-  resolved "https://npm.pkg.github.com/download/@digitalvisioncz/eslint-config-react/1.0.1/982046d94486a13b43d2a4f90baed01062304cf67228c096a29933d15e42bfdd#834f479a56bb2b579d59ec7689c17105f948cdbc"
-  integrity sha512-ymrUBbc+TUT0Y+Ijy+qVjW15cG0S4Upi86YQy4PgWKAgPrLOqJ7vR7rR2TziRsWUcMo/bbMp94yamX+Iq0UY6A==
+"@digitalvisioncz/eslint-config-react@^1.0.0":
+  version "1.0.0"
+  resolved "https://npm.pkg.github.com/download/@digitalvisioncz/eslint-config-react/1.0.0/084c2f28e3324b723b0434cda6b5416331eac3ad0e5cd54e0159073e6cbfd033#ed0fad716bbc8352a0abf9758411b9d5ea0b9d3f"
+  integrity sha512-ZW624ro9z/kZmi3NybxrnSR3bYd2bLbWuPzou93aSr/Cqn2VKYbELtzqV/i6kuBwhkkM7Bb20nZJuP8INxsa+Q==
   dependencies:
-    "@digitalvisioncz/eslint-config-base" "^1.0.1"
+    "@digitalvisioncz/eslint-config-base" "^1.0.0"
     eslint "^7.23.0"
     eslint-plugin-jsx-a11y "^6.4.1"
     eslint-plugin-react "^7.23.1"
     eslint-plugin-react-hooks "^4.2.0"
 
-"@digitalvisioncz/stylelint-config@^1.0.1":
-  version "1.0.1"
-  resolved "https://npm.pkg.github.com/download/@digitalvisioncz/stylelint-config/1.0.1/84da04b912efecaeb4f522c604aa65e303233c27322559cb8c9e084080bddc8a#32365b3f10b7e1c473a5a153b5b661a297ab9563"
-  integrity sha512-XrGTVcuq4ff86giwbxQ7putTbXLl1DBelVIk3p6km7iKDqdpcCkUIx7J13b04D3+ZO2ry3AGndToFJJxTd3r0w==
+"@digitalvisioncz/stylelint-config@^1.0.0":
+  version "1.0.0"
+  resolved "https://npm.pkg.github.com/download/@digitalvisioncz/stylelint-config/1.0.0/40f40204e14042a4d6e48ca5d24c9d9b9aedaff86dec55ed889c39c33b5514f4#a9b250eee1fb8bc5b2afbed0ff6393365fe4f3a2"
+  integrity sha512-pP1aYGZ7g7bD3V1CKJ2rH+NAxuLkOLouKSAZFc5wPDTB6a0HQ0TN+PrMzDmKQj8KKAyIjNtAJ07vYc7KIR3XtA==
   dependencies:
     stylelint "^13.12.0"
     stylelint-a11y "^1.2.3"
@@ -359,9 +359,9 @@ ajv@^6.10.0, ajv@^6.12.4:
     uri-js "^4.2.2"
 
 ajv@^8.0.1:
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/ajv/-/ajv-8.0.3.tgz#81f1b07003b329f000b7912e59a24f52392867b6"
-  integrity sha512-Df6NAivu9KpZw+q8ySijAgLvr1mUA5ihkRvCLCxpdYR21ann5yIuN+PpFxmweSj7i3yjJ0x5LN5KVs0RRzskAQ==
+  version "8.0.5"
+  resolved "https://registry.yarnpkg.com/ajv/-/ajv-8.0.5.tgz#f07d6fdeffcdbb80485570ce3f1bc845fcc812b9"
+  integrity sha512-RkiLa/AeJx7+9OvniQ/qeWu0w74A8DiPPBclQ6ji3ZQkv5KamO+QGpqmi7O4JIw3rHGUXZ6CoP9tsAkn3gyazg==
   dependencies:
     fast-deep-equal "^3.1.1"
     json-schema-traverse "^1.0.0"
@@ -478,9 +478,9 @@ autoprefixer@^9.8.6:
     postcss-value-parser "^4.1.0"
 
 axe-core@^4.0.2:
-  version "4.1.3"
-  resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.1.3.tgz#64a4c85509e0991f5168340edc4bedd1ceea6966"
-  integrity sha512-vwPpH4Aj4122EW38mxO/fxhGKtwWTMLDIJfZ1He0Edbtjcfna/R3YB67yVhezUMzqc3Jr3+Ii50KRntlENL4xQ==
+  version "4.1.4"
+  resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.1.4.tgz#f19cd99a84ee32a318b9c5b5bb8ed373ad94f143"
+  integrity sha512-Pdgfv6iP0gNx9ejRGa3zE7Xgkj/iclXqLfe7BnatdZz0QnLZ3jrRHUVH8wNSdN68w05Sk3ShGTb3ydktMTooig==
 
 axobject-query@^2.2.0:
   version "2.2.0"
@@ -551,9 +551,9 @@ camelcase@^5.3.1:
   integrity sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==
 
 caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001181:
-  version "1.0.30001205"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001205.tgz#d79bf6a6fb13196b4bb46e5143a22ca0242e0ef8"
-  integrity sha512-TL1GrS5V6LElbitPazidkBMD9sa448bQDDLrumDqaggmKFcuU2JW1wTOHJPukAcOMtEmLcmDJEzfRrf+GjM0Og==
+  version "1.0.30001207"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001207.tgz#364d47d35a3007e528f69adb6fecb07c2bb2cc50"
+  integrity sha512-UPQZdmAsyp2qfCTiMU/zqGSWOYaY9F9LL61V8f+8MrubsaDGpaHD9HRV/EWZGULZn0Hxu48SKzI5DgFwTvHuYw==
 
 chalk@^2.0.0, chalk@^2.4.1, chalk@^2.4.2:
   version "2.4.2"
@@ -811,9 +811,9 @@ domelementtype@1, domelementtype@^1.3.1:
   integrity sha512-BSKB+TSpMpFI/HOxCNr1O8aMOTZ8hT3pM3GQ0w/mWRmkhEDSFJkkyzz4XQsBV44BChwGkrDfMyjVD0eA2aFV3w==
 
 domelementtype@^2.0.1:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/domelementtype/-/domelementtype-2.1.0.tgz#a851c080a6d1c3d94344aed151d99f669edf585e"
-  integrity sha512-LsTgx/L5VpD+Q8lmsXSHW2WpA+eBlZ9HPf3erD1IoPF00/3JKHZ3BknUVA2QGDNu69ZNmyFmCWBSO45XjYKC5w==
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/domelementtype/-/domelementtype-2.2.0.tgz#9a0b6c2782ed6a1c7323d42267183df9bd8b1d57"
+  integrity sha512-DtBMo82pv1dFtUmHyr48beiuq792Sxohr+8Hm9zoxklYPfa6n0Z3Byjj2IV7bmr2IyqClnqEQhfgHJJ5QF0R5A==
 
 domhandler@^2.3.0:
   version "2.4.2"
@@ -831,9 +831,9 @@ domutils@^1.5.1:
     domelementtype "1"
 
 electron-to-chromium@^1.3.649:
-  version "1.3.704"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.704.tgz#894205a237cbe0097d63da8f6d19e605dd13ab51"
-  integrity sha512-6cz0jvawlUe4h5AbfQWxPzb+8LzVyswGAWiGc32EJEmfj39HTQyNPkLXirc7+L4x5I6RgRkzua8Ryu5QZqc8cA==
+  version "1.3.709"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.709.tgz#d7be0b5686a2fdfe8bad898faa3a428d04d8f656"
+  integrity sha512-LolItk2/ikSGQ7SN8UkuKVNMBZp3RG7Itgaxj1npsHRzQobj9JjMneZOZfLhtwlYBe5fCJ75k+cVCiDFUs23oA==
 
 emoji-regex@^8.0.0:
   version "8.0.0"
@@ -1890,9 +1890,9 @@ map-obj@^1.0.0:
   integrity sha1-2TPOuSBdgr3PSIb2dCvcK03qFG0=
 
 map-obj@^4.0.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/map-obj/-/map-obj-4.2.0.tgz#0e8bc823e2aaca8a0942567d12ed14f389eec153"
-  integrity sha512-NAq0fCmZYGz9UFEQyndp7sisrow4GroyGeKluyKC/chuITZsPyOyC1UJZPJlVFImhXdROIP5xqouRLThT3BbpQ==
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/map-obj/-/map-obj-4.2.1.tgz#e4ea399dbc979ae735c83c863dd31bdf364277b7"
+  integrity sha512-+WA2/1sPmDj1dlvvJmB5G6JKfY9dpn7EVBUL06+y6PoljPkh+6V1QihwxNkbcGxCRjt2b0F9K0taiCuo7MbdFQ==
 
 mathml-tag-names@^2.1.3:
   version "2.1.3"

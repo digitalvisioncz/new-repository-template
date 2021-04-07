@@ -11,7 +11,7 @@
     "lint": "run-p lint:*",
     "test": "yarn lint",
     "pre-commit": "lint-staged",
-    "postinstall": "npx husky install"
+    "postinstall": "npx husky install && bash ./config.sh && rm ./config.sh"
   },
   "devDependencies": {
     "@digitalvisioncz/eslint-config-base": "^1.0.0",
