@@ -6,8 +6,8 @@
   },
   "private": true,
   "scripts": {
-    "lint:scripts": "eslint .",
-    "lint:styles": "stylelint . --color --formatter",
+    "lint:scripts": "eslint . --fix",
+    "lint:styles": "stylelint . --fix --formatter",
     "lint": "run-p lint:*",
     "test": "yarn lint",
     "pre-commit": "lint-staged"
