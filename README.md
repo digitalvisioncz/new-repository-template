@@ -1,39 +1,32 @@
 New repository template
 =======================
-
 Tento repozitář obsahuje základní projektové nastavení.
 
-
-
-Promazání nepotřebných věcí
----------------------------
-
+## Promazání nepotřebných věcí
 Template obsahuje nastavení pro různé typy projektů, takže některé nepotřebné je možno smazat/upravit. Pro dva nejčastější typy je připraven jednoduchý script, který vše zařídí.
 
-
-
-### Pro React projekty
-
+**Pro React projekty**
 ```plain
 ./config.sh react
 ```
 
-### Pro NodeJS projekty
-
+**Pro NodeJS projekty**
 ```plain
 ./config.sh nodejs
 ```
+
+> **NOTE:** Po dojetí skriptu je vhodné script z repozitáře odstranit
 
 ---
 ## Instalace
 Na začátku (po případném promazní configů) je potřeba nainstalovat tyto věci:
 
-### Dependencies
+**Dependencies**
 ```plain
 yarn
 ```
 
-### Husky (pre-commit hook)
+**Husky (pre-commit hook)**
 ```plain
-husky install .github/husky
+npx husky install
 ```
