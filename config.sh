@@ -18,22 +18,22 @@ do
             rm .stylelintrc
             rm .stylelintignore
             # update .eslintrc
-            sed -i -e "3d;6d;8d" .eslintrc
+            sed -i -e "3d;7d;9d" .eslintrc
             sed -i 's/react/base/' .eslintrc
             # update .lintstagedrc
             sed -i -e "5,7d" .lintstagedrc
             sed -i 's/],/]/' .lintstagedrc
             # update package.json
-            sed -i -e "10d;18d;19d" package.json
+            sed -i -e "10d;19d;20d" package.json
             echo ""
             echo "$(tput setaf 2)Project was configured for NodeJS"
             break
             ;;
         "React or HTML/CSS/JS")
             # update .eslintrc
-            sed -i -e "8d" .eslintrc
+            sed -i -e "9d" .eslintrc
             # update package.json
-            sed -i -e "17d" package.json
+            sed -i -e "18d" package.json
             echo ""
             echo "$(tput setaf 2)Project was configured for React or HTML/CSS/JS"
             break
