@@ -1,4 +1,0 @@
-{
-  "extends": "@digitalvisioncz/stylelint-config",
-  "rules": {}
-}

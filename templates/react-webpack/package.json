@@ -1,0 +1,50 @@
+{
+  "name": "lego-90th-photo-app",
+  "version": "1.0.0",
+  "author": {
+    "name": "Digital Vision",
+    "url": "https://digitalvision.cz"
+  },
+  "private": true,
+  "scripts": {
+    "prepare": "husky install",
+    "reinstall": "rm -rf 'yarn.lock' 'node_modules' && yarn",
+    "clean": "rm -rf ./dist/*",
+    "start": "webpack serve --open --config webpack.dev.js",
+    "build:dev": "yarn clean && webpack --config webpack.dev.js",
+    "build": "yarn clean && webpack --config webpack.prod.js",
+    "lint:scripts": "eslint . --fix",
+    "lint:styles": "stylelint . --fix --formatter"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@digitalvisioncz/eslint-config-react": "^1.0.6",
+    "@digitalvisioncz/stylelint-config": "^1.1.2",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.6.0",
+    "css-minimizer-webpack-plugin": "^3.4.1",
+    "html-webpack-plugin": "^5.5.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.4",
+    "mini-css-extract-plugin": "^2.5.3",
+    "postcss": "^8.4.7",
+    "postcss-import": "^14.0.2",
+    "postcss-loader": "^6.2.1",
+    "postcss-nested": "^5.0.6",
+    "postcss-normalize": "^10.0.1",
+    "postcss-preset-env": "^7.4.1",
+    "postcss-reporter": "^7.0.5",
+    "style-loader": "^3.3.1",
+    "stylelint": "^14.5.3",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

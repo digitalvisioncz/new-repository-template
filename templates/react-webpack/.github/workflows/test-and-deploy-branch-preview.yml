@@ -1,0 +1,30 @@
+name: Deploy preview on branch push
+on:
+  push:
+    branches:
+      - feature/*
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: c-hive/gha-yarn-cache@v1
+      - uses: aspecto-io/yarn-github-package@v1.2
+        with:
+          token: ${{ secrets.NPM_AUTH_TOKEN }}
+          registry: '@digitalvisioncz'
+      - name: Install dependencies
+        run: yarn
+      - name: Build static files
+        run: yarn build:dev
+
+      - name: Deploy static site preview
+        uses: digitalvisioncz/meli-deploy-github-action@1.0.0-beta.2
+        id: meli
+        with:
+          action: release
+          meliUrl: https://static.dvdev.cz
+          meliSiteId: ${{ secrets.MELI_SITE_ID }}
+          meliSiteToken: ${{ secrets.MELI_SITE_TOKEN }}
+          buildFolder: dist

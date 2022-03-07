@@ -1,5 +1,5 @@
 {
-    "*.{js,jsx,mjs}": [
+    "*.{js,jsx}": [
       "eslint --cache --fix"
     ],
     "*.css": [

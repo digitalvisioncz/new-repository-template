@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Getting Started</title>
+  </head>
+  <body>
+    <%
+        for (key in htmlWebpackPlugin.files.js) {
+            if (htmlWebpackPlugin.files.js[key] === 'embed.js') {
+    %>
+        <script
+            id="app"
+            data-src="<%= key %>"
+            src="<%= htmlWebpackPlugin.files.js[key] %>"
+        ></script>
+    <% } else { %>
+        <script
+            defer="defer"
+            src="<%= htmlWebpackPlugin.files.js[key] %>"
+        ></script>
+    <% }} %>
+  </body>
+</html>
