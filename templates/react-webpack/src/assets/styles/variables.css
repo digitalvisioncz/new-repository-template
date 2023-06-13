@@ -1,0 +1,5 @@
+:root,
+:host {
+    --gutter: 10px;
+    --mobile-padding: 0 8vw;
+}

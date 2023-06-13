@@ -1,0 +1,14 @@
+{
+  "extends": ["stylelint-config-recommended"],
+  "ignoreFiles": [
+    "**/*.js",
+    "**/*.jsx",
+    "**/*.ejs",
+    "**/*.json",
+    "**/*.lock",
+    "**/*.woff",
+    "**/*.jpg",
+    "**/*.png",
+    "**/*.svg"
+  ]
+}

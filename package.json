@@ -1,0 +1,21 @@
+{
+  "name": "@dvdevcz/init-repo",
+  "version": "1.0.1",
+  "licence": "MIT",
+  "main": "index.js",
+  "bin": "./index.js",
+  "workspaces": [
+    "templates/*"
+  ],
+  "dependencies": {
+    "cross-spawn": "^7.0.3",
+    "inquirer": "8.0.0",
+    "shelljs": "^0.8.5"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9",
+    "@types/shelljs": "^0"
+  },
+  "packageManager": "yarn@3.6.0",
+  "repository": "https://github.com/digitalvisioncz/new-repository-template"
+}

@@ -1,0 +1,17 @@
+:root,
+:host {
+    --color-black: #000;
+    --color-dark-grey: #333;
+    --color-tealtastic: #55b19f;
+    --color-white: #fff;
+    --color-burple-purple: #39285f;
+    --color-very-merry-berry: #ce3865;
+    --color-cream: #fbf8ec;
+    --color-cream-dark: #f7f1da;
+    --color-orange: #da7d31;
+    --color-yellow: #f2dd4a;
+    --color-green: #97c24e;
+    --color-blue: #69b3e7;
+    --color-lilac: #665aa3;
+    --color-pink: #d25d8b;
+}

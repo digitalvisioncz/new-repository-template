@@ -1,0 +1,33 @@
+{
+  "name": "vite-atomico-template",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "packageManager": "yarn@3.6.0",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@atomico/hooks": "^3.49.1",
+    "@splinetool/runtime": "^0.9.357",
+    "atomico": "latest",
+    "clsx": "^1.2.1"
+  },
+  "devDependencies": {
+    "@atomico/tsconfig": "^1.0.0",
+    "@atomico/vite": "^2.9.2",
+    "@csstools/postcss-global-data": "^1.0.3",
+    "@dvdevcz/stylelint-config": "^1.1.2",
+    "eslint-import-resolver-typescript": "^3.5.5",
+    "postcss": "^8.4.24",
+    "postcss-composes-enhanced": "^1.0.0",
+    "postcss-import": "^15.1.0",
+    "postcss-nested": "^6.0.1",
+    "postcss-preset-env": "^8.4.2",
+    "postcss-sort-media-queries": "^5.2.0",
+    "stylelint": "^15.6.3",
+    "typescript-plugin-css-modules": "^5.0.1",
+    "vite": "^4.3.9"
+  }
+}

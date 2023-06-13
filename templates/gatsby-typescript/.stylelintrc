@@ -1,0 +1,11 @@
+{
+    "extends": [
+        "@dvdevcz/stylelint-config/config"
+    ],
+    "ignoreFiles": [
+        "**/*.js",
+        "**/*.jsx",
+        "**/*.ts",
+        "**/*.tsx"
+    ]
+}

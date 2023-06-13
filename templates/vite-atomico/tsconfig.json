@@ -1,0 +1,20 @@
+{
+    "extends": "@atomico/tsconfig/base.json",
+    "include": [
+        "src/**/*",
+        "./.eslintrc.cjs",
+        "postcss.config.cjs"
+    ],
+    "compilerOptions": {
+    "plugins": [
+        {
+            "name": "typescript-plugin-css-modules",
+            "options": {
+            "customMatcher": "\\.module\\.css$",
+            "postcssOptions": true
+            }
+        }
+        ],
+        "types": ["vite/client"]
+    }
+}
