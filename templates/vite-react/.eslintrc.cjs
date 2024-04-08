@@ -16,7 +16,6 @@ module.exports = {
     ignorePatterns: [
         '.eslintrc.js',
         'vite.config.js',
-        'postcss.config.js',
     ],
     settings: {
         'import/resolver': {

@@ -1,37 +1,33 @@
 {
-    "name": "vite-react-template",
-    "version": "0.0.1",
-    "private": true,
-    "type": "module",
-    "packageManager": "yarn@3.6.0",
-    "scripts": {
-        "start": "vite",
-        "build": "vite build"
-    },
-    "dependencies": {
-        "@splinetool/runtime": "^0.9.357",
-        "clsx": "^1.2.1",
-        "react": "^18.2.0",
-        "react-dom": "^18.2.0"
-    },
-    "devDependencies": {
-        "@babel/core": "^7.22.1",
-        "@babel/preset-react": "^7.22.3",
-        "@csstools/postcss-global-data": "^1.0.3",
-        "@dvdevcz/stylelint-config": "^1.1.2",
-        "@dvdevcz/typescript-config": "^1.0.0",
-        "@types/react": "^18.2.8",
-        "@types/react-dom": "^18.2.4",
-        "@vitejs/plugin-react": "^4.0.0",
-        "eslint-import-resolver-typescript": "^3.5.5",
-        "postcss": "^8.4.24",
-        "postcss-composes-enhanced": "^1.0.0",
-        "postcss-import": "^15.1.0",
-        "postcss-nested": "^6.0.1",
-        "postcss-preset-env": "^8.4.2",
-        "postcss-sort-media-queries": "^5.2.0",
-        "stylelint": "^15.6.3",
-        "typescript-plugin-css-modules": "^5.0.1",
-        "vite": "^4.3.9"
-    }
+  "name": "vite-react-template",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "packageManager": "yarn@4.1.1",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "clsx": "^1.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.1",
+    "@babel/preset-react": "^7.22.3",
+    "@dvdevcz/stylelint-config": "^1.1.2",
+    "@dvdevcz/typescript-config": "^1.0.0",
+    "@types/react": "^18.2.8",
+    "@types/react-dom": "^18.2.4",
+    "@vitejs/plugin-react": "^4.0.0",
+    "eslint": "^8.0.0",
+    "eslint-import-resolver-typescript": "^3.5.5",
+    "eslint-plugin-import": "^2.29.1",
+    "lightningcss": "^1.24.1",
+    "stylelint": "^15.6.3",
+    "typescript": "^5.4.4",
+    "typescript-plugin-css-modules": "^5.0.1",
+    "vite": "^4.3.9"
+  }
 }
